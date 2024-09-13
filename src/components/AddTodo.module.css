@@ -1,0 +1,42 @@
+/* AddTodo.module.css */
+.addTodo {
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .addBtn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .error {
+    color: #f44336;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .form {
+      flex-direction: column;
+    }
+  
+    .addBtn {
+      width: 100%;
+    }
+  }
